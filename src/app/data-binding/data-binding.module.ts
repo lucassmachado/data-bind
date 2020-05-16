@@ -7,6 +7,8 @@ import { PropertyBindingComponent } from './property-binding/property-binding.co
 import { EventBindingComponent } from './event-binding/event-binding.component';
 import { TwoWayBindingComponent } from './two-way-binding/two-way-binding.component';
 import { MeuFormComponent } from './meu-form/meu-form.component';
+import { InputOutputPropertiesComponent } from './input-output-properties/input-output-properties.component';
+import { InputPropertyComponent } from './input-property/input-property.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +16,9 @@ import { MeuFormComponent } from './meu-form/meu-form.component';
     PropertyBindingComponent,
     EventBindingComponent,
     TwoWayBindingComponent,
-    MeuFormComponent
+    MeuFormComponent,
+    InputOutputPropertiesComponent,
+    InputPropertyComponent
   ],
   imports: [
     CommonModule,
