@@ -9,6 +9,7 @@ import { TwoWayBindingComponent } from './two-way-binding/two-way-binding.compon
 import { MeuFormComponent } from './meu-form/meu-form.component';
 import { InputOutputPropertiesComponent } from './input-output-properties/input-output-properties.component';
 import { InputPropertyComponent } from './input-property/input-property.component';
+import { OutputPropertyComponent } from './output-property/output-property.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { InputPropertyComponent } from './input-property/input-property.componen
     TwoWayBindingComponent,
     MeuFormComponent,
     InputOutputPropertiesComponent,
-    InputPropertyComponent
+    InputPropertyComponent,
+    OutputPropertyComponent
   ],
   imports: [
     CommonModule,

@@ -7,4 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class DataBindingComponent {
 
+  onMudouValor(evento) {
+    console.log(evento.novoValor);
+  }
+
 }

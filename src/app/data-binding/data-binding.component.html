@@ -7,3 +7,7 @@
 <app-meu-form></app-meu-form>
 
 <app-input-output-properties></app-input-output-properties>
+
+<app-contador [valor]="10"
+    (mudouValor)="onMudouValor($event)">
+</app-contador>
