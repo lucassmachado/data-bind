@@ -5,11 +5,18 @@ import { Component, OnInit } from '@angular/core';
   templateUrl: './data-binding.component.html',
   styleUrls: ['./data-binding.component.css']
 })
-export class DataBindingComponent implements OnInit {
+export class DataBindingComponent {
 
-  constructor() { }
+  url = 'https://loiane.training/';
+  cursoAngular = true;
+  urlImagem = 'https://www.itexto.com.br/devkico/wp-content/uploads/2016/04/angular-js_600x400.png';
 
-  ngOnInit() {
+  getValor() {
+    return 1;
+  }
+
+  getCurtirCurso() {
+    return true;
   }
 
 }
